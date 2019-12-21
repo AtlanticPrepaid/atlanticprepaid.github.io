@@ -1,0 +1,309 @@
+@media (min-width: 320px) {
+    .head-text-color{
+        font-size: 11px;
+    }
+    .head-text-products-font{
+        font-size: 18px;
+    }
+    .head-text-contactus-font{
+        font-size: 13px;
+    }
+    .head-small-text{
+        font-size: 9px;
+    }
+    .logo-div-size{
+       text-align: center;
+    }
+    .logo-size{
+        width: 60%;
+    }
+    .masterhead {
+        height: 0vh;
+        min-height: 190px;
+    }
+    .page-head.slider-menu-position.masterhead{
+        margin-top: 59px;
+    }
+    .about-us-container{
+        text-align: left; 
+        margin-left: 30px;
+    }
+    .about-us-img{
+        text-align: center; 
+        width: 100%;
+        height: 100%;  
+        padding: 10% 20%;
+    }
+    .about-us-div-head-text{
+        font-size: 20px;
+    }
+    .section-animate-small-text {
+        font-size: 11px;
+        color: #828282;
+    }
+    .about-us-bottom-img-heavy-content{
+        font-size: 28px;
+        color: #ce1b45;
+    }
+    .bottom-img-heavy-content{
+        font-size: 26px;
+        color: #ffffff;
+    }
+    .bottom-img-light-content{
+        font-size: 19px;
+        color: #ffffff;
+    
+    }
+} 
+@media (min-width: 770px) {
+    .head-text-color{
+        font-size: 25px;
+    }
+    .head-small-text{
+        font-size: 10px;
+    }
+    .logo-div-size{
+        width: 10%;
+    }
+} 
+
+@media (min-width: 1000px) {
+    .home-head-text{
+        font-size: 30px;
+    }
+    .head-small-text{
+        font-size: 16px;
+    }
+    .contact-detail-head-text{
+        font-size: 30px;
+    }
+    .products-head-text{
+        font-size: 28px;
+    }
+    .terminal-text{
+        font-size: 17px;
+    }
+    .products-terminal-text{
+        font-size: 18px;
+    }
+    .logo-size{
+        width:100%;
+    }
+    .about-us-container{
+        text-align: left; 
+        margin-left: 70px;
+    }
+    .about-us-div-head-text{
+        font-size: 30px;
+        color: #1a1a1a;
+    }
+    .section-animate-small-text {
+        font-size: 16px;
+        color: #828282;
+    }
+    .about-us-bottom-img-heavy-content{
+        font-size: 48px;
+        color: #ce1b45;
+    }
+    .masterhead {
+        height: 0vh;
+        min-height: 689px;
+    }
+    .page-head.slider-menu-position.masterhead{
+        margin-top: 0px;
+    }
+    .about-us-img{
+        text-align: center; 
+        width: 75%;
+        height: 100%;
+        padding: 0% 5%;
+    }
+    .bottom-img-heavy-content{
+        font-size: 48px;
+        color: #ffffff;
+    }
+    .bottom-img-light-content{
+        font-size: 24px;
+        color: #ffffff;
+    }
+    
+}
+.head-text-color{
+    color: #c91b45;
+}
+
+.head-small-text{
+    color: #828282;
+}
+
+
+
+.logo-div-size{
+    width: 10%;
+}
+
+.phone-number-icon{
+    font-size: 25px;
+    line-height: 33px;
+    color: #fff;
+}
+.phone-number-icon:hover{
+    color: #ff1654;
+}
+.phone-number{
+    font-size: 11px;
+    color: #ffffff; 
+    margin-right: 20px;
+}
+
+.section-owl-carousel{
+    height:100%;
+}
+.content-on-img{
+    text-align: end;
+}
+.footer-content{
+    background-color: #a7357d;
+}
+.footer-content-div-logo{
+    width: 40%;
+}
+.footer-content-logo{
+    margin-top:-7px; 
+    width:100%;
+}
+.contact-info-row{
+    margin-top: 70px;
+}
+.user-talking-icon{
+    width: 10%;
+}
+.contact-us{
+    text-align: left;
+    color: black;
+    line-height: 1.11429;
+}
+.section80{
+    margin-top: 110;
+}
+.gift-card-text{
+    text-align: left;
+}
+.gift-card-img-container{
+    text-align: center;
+}
+.gift-card-img{
+    width: 80%;
+}
+.terminal-text{
+    text-align: left;
+}
+.shopping-terminal-img{
+    width: 70%;
+}
+.footer-img-content{
+    text-align: end;
+}
+.products-head-text{
+   
+}
+.about-us-head-text{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 50px;
+}
+.section-animate-large-text{
+    font-size: 36px;
+    color: #1a1a1a;
+}
+
+.btn-properties{
+	color : #ffffff;
+	background-color : #ce1d45 ;
+}
+.btn-about-us{
+    font-size :18px;
+    padding: 8px 10px;
+}
+.unit-body-container{
+    font-size: 18px;
+    color: #000000;
+}
+.contact-in-footer{
+    font-size: 24px;
+	color: #ffffff;
+
+}
+.mobile-number{
+    font-size: 11px;
+	color: #ffffff;
+}
+
+.about-us-bottom-img-light-content{
+    font-size: 24px;
+	color: #000000 ;
+}
+.blog-img-content{
+    font-size: 18px;
+	color: #302f2f;
+}
+.form-field-label{
+    font-size: 14px; 
+    color: 1a1a1a;
+}
+.products-terminal-text{
+    font-size: 18px;
+}
+
+
+
+.futura-heavy{
+    font-family: futura-heavy;
+}
+.futura-medium{
+    font-family: futura-medium;
+}
+.futura-light{
+    font-family: futura-light;
+}
+
+
+/* 
+@font-face{
+    font-family: 'futura-bold';
+    src: url('../fonts/FuturaFont/Futura\ Bold\ font.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'futura-small';
+    src: url('../fonts/FuturaFont/futura\ light\ bt.ttf') format('truetype');
+} */
+
+/* @font-face{
+    font-family: 'futura-heavy';
+    src: url('../fonts/Futura/futura-hv-bt-heavy.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'futura-medium';
+    src: url('../fonts/Futura/futurabq-medium.otf') format('truetype');
+}
+ @font-face{
+    font-family: 'futura-light';
+    src: url('../fonts/Futura/futuralightctt-normal.ttf') format('truetype');
+}  */
+
+@font-face{
+    font-family: 'futura-light';
+    src: url('../fonts/FuturaFont/futura\ light\ bt.ttf') format('truetype');
+} 
+@font-face{
+    font-family: 'futura-heavy';
+    src: url('../fonts/FuturaFont/Futura\ Heavy\ font.ttf') format('truetype');
+} 
+@font-face{
+    font-family: 'futura-medium';
+    src: url('../fonts/FuturaFont/futura\ medium\ bt.ttf') format('truetype');
+} 
+
+
+
+

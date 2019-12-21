@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+  .masterhead {
+    height: 90vh;
+    min-height: 764px;
+    background-image: url('../images/banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
