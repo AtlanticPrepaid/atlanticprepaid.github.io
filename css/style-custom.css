@@ -76,6 +76,12 @@
 } 
 
 @media (min-width: 1000px) {
+    .img-product-width{
+        width: 100%;
+    }
+    .index-text-line-height{
+        line-height: 20px;
+    }
     .home-head-text{
         font-size: 30px;
     }
