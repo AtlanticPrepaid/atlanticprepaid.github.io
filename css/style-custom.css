@@ -1,4 +1,19 @@
 @media (min-width: 320px) {
+    .futura-heavy.bottom-img-heavy-content{
+        font-size: 26px;
+    }
+    .head-text-color.home-head-text.futura-heavy{
+        font-size: 13px;
+    }
+    .head-small-text.futura-light{
+        font-size: 11px;
+    }
+    .futura-light.section-animate-small-text{
+        font-size: 16px;
+    }
+    .futura-heavy.about-us-div-head-text{
+        font-family: futura-heavy;
+    }
     .head-text-color{
         font-size: 11px;
     }
@@ -41,8 +56,8 @@
         font-size: 11px;
         color: #828282;
     }
-    .about-us-bottom-img-heavy-content{
-        font-size: 28px;
+    .futura-heavy.about-us-bottom-img-heavy-content{
+        font-size: 26px;
         color: #ce1b45;
     }
     .bottom-img-heavy-content{
@@ -62,6 +77,35 @@
         margin-right: 50px;
         margin-top: 12px;
     }
+    .gift-card-img-container .gift-card-img{
+        width: 60%; 
+        margin-top: 0px;
+    }
+    .gift-card-img-grp-1{
+        width: 50%;
+        text-align: center;
+    }
+    .gift-card-img-grp-align{
+        text-align: center;
+    }
+    .gift-card-img-grp-2{
+        width: 50%;
+        margin-left: 0px;
+    }
+    .terminal-img-container .shopping-terminal-img{
+        width: 70%;
+        margin-top: 30px;
+    }
+    .futura-medium.about-us-bottom-img-light-content{
+        font-size: 20px;
+      
+    }
+    .head-text-color.products-terminal-text.futura-heavy{
+        font-size: 18px;
+    }
+    .futura-heavy.about-us-div-head-text{
+        font-size: 25px;
+    }
 } 
 @media (min-width: 770px) {
     .head-text-color{
@@ -76,8 +120,30 @@
 } 
 
 @media (min-width: 1000px) {
-    .img-product-width{
+    
+    .head-small-text.futura-light{
+        font-size: 20px;
+    }
+    .head-text-color.home-head-text.futura-heavy{
+        font-size: 32px;
+    }
+    .futura-heavy.about-us-div-head-text{
+        font-size: 25px;
+    }
+    .futura-light.section-animate-small-text{
+        font-size: 20px;
+        line-height: 1.20;
+    }
+    .futura-heavy.contact-in-footer{
+        font-size: 25px;
+    }
+    .img-product1-width{
         width: 100%;
+        box-shadow: 4px 4px 0px 1px #de8751;
+    }
+    .img-product2-width{
+        width: 100%;
+        box-shadow: 4px 4px 0px 1px #bf3c5b;
     }
     .index-text-line-height{
         line-height: 20px;
@@ -115,7 +181,7 @@
         font-size: 16px;
         color: #828282;
     }
-    .about-us-bottom-img-heavy-content{
+    .futura-heavy.about-us-bottom-img-heavy-content{
         font-size: 48px;
         color: #ce1b45;
     }
@@ -132,10 +198,11 @@
         height: 100%;
         padding: 0% 5%;
     }
-    .bottom-img-heavy-content{
+    .futura-heavy.bottom-img-heavy-content{
         font-size: 48px;
         color: #ffffff;
     }
+    
     .bottom-img-light-content{
         font-size: 24px;
         color: #ffffff;
@@ -148,13 +215,32 @@
         margin-right: 0px;
         margin-top: 0px;
     }
+    .gift-card-img-grp-1{
+        width: 50%;
+    }
+    .gift-card-img-grp-2{
+        width: 50%;
+        margin-left: -130px;
+    }
+    .gift-card-img-container .gift-card-img{
+        width: 80%; 
+        margin-top: 20px;
+    }
+    .head-text-color.products-terminal-text.futura-heavy{
+        font-size: 25px;
+    }
+    .terminal-img-container .shopping-terminal-img{
+        width: 60%;
+        margin-top: 50px;
+    }
+   
 }
 .head-text-color{
     color: #c91b45;
 }
 
 .head-small-text{
-    color: #828282;
+    color: #727272;
 }
 
 
@@ -213,15 +299,11 @@
 .gift-card-img-container{
     text-align: center;
 }
-.gift-card-img{
-    width: 80%;
-}
+
 .terminal-text{
     text-align: left;
 }
-.shopping-terminal-img{
-    width: 70%;
-}
+
 .footer-img-content{
     text-align: end;
 }
@@ -240,7 +322,8 @@
 
 .btn-properties{
 	color : #ffffff;
-	background-color : #ce1d45 ;
+    background-color : #ce1d45 ;
+    border: none;
 }
 .btn-about-us{
     font-size :18px;
@@ -248,6 +331,10 @@
 }
 .unit-body-container{
     font-size: 18px;
+    color: #000000;
+}
+.futura-heavy.unit-body-container{
+    font-size: 22px;
     color: #000000;
 }
 .contact-in-footer{
@@ -260,7 +347,7 @@
 	color: #ffffff;
 }
 
-.about-us-bottom-img-light-content{
+.futura-medium.about-us-bottom-img-light-content{
     font-size: 24px;
 	color: #000000 ;
 }
@@ -275,17 +362,24 @@
 .products-terminal-text{
     font-size: 18px;
 }
+.futura-heavy.contact-in-footer{
+    font-size: 25px;
+}
 
 
 
 .futura-heavy{
     font-family: futura-heavy;
+    font-size: 32px;
+    line-height: 1.20;
 }
 .futura-medium{
     font-family: futura-medium;
 }
 .futura-light{
     font-family: futura-light;
+    font-size: 20px;
+    line-height: 1.20;
 }
 
 

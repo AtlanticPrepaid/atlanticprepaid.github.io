@@ -5856,7 +5856,7 @@ a.badge:hover, a.badge:focus {
 .thumbnail {
 	display: block;
 	padding: 0;
-	margin-bottom: 24px;
+	margin-bottom: 5px;
 	line-height: 1.71429;
 	background-color: #191919;
 	border: 1px solid #ddd;
@@ -23368,7 +23368,7 @@ html .page .offset-m-right-165 {
 
 .unit > [class*='unit-']:first-child,
 .unit-vertical > [class*='unit-']:first-child {
-	padding-top: 0;
+	padding-top: 10px;
 }
 
 .unit > .unit-left + .unit-right,
