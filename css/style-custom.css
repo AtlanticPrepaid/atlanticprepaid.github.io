@@ -106,6 +106,14 @@
     .futura-heavy.about-us-div-head-text{
         font-size: 25px;
     }
+    .user-talking-icon{
+        width: 20%;
+    }
+    .copyright{
+        color: #aa1bce;
+        text-align: left;
+        padding: 8px 10px;
+    }
 } 
 @media (min-width: 770px) {
     .head-text-color{
@@ -120,6 +128,7 @@
 } 
 
 @media (min-width: 1000px) {
+    
     
     .head-small-text.futura-light{
         font-size: 20px;
@@ -194,6 +203,9 @@
     .page-head.slider-menu-position.masterhead{
         margin-top: 0px;
     }
+    .page-head.slider-menu-position.masterhead.home{
+        margin-top: 0px;
+    }
     .about-us-img{
         text-align: center; 
         width: 75%;
@@ -205,7 +217,7 @@
         color: #ffffff;
     }
     
-    .bottom-img-light-content{
+    .futura-light.bottom-img-light-content{
         font-size: 24px;
         color: #ffffff;
     }
@@ -235,7 +247,16 @@
         width: 60%;
         margin-top: 50px;
     }
-   
+    .user-talking-icon{
+        width: 10%;
+    }
+    .copyright{
+        font-size: 14px;
+        color: #aa1bce;
+        text-align: left;
+        margin-left: 85px;
+        padding: 15px 15px;
+    }
 }
 .head-text-color{
     color: #c91b45;
@@ -284,9 +305,9 @@
 .contact-info-row{
     margin-top: 70px;
 }
-.user-talking-icon{
-    width: 10%;
-}
+
+
+
 .contact-us{
     text-align: left;
     color: black;
@@ -377,12 +398,12 @@
 .futura-medium{
     font-family: futura-medium;
 }
+
 .futura-light{
     font-family: futura-light;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 1.20;
 }
-
 /* @font-face{
     font-family: 'futura-light';
     src: url('../fonts/FuturaFont/futura\ light\ bt.ttf') format('truetype');

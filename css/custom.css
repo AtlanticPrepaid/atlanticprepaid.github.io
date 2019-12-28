@@ -7,4 +7,24 @@
     background-size: 100%;
     background-repeat: no-repeat;
   }
+  .home {
+    background-image: url('../images/AtlanticPrepaid_Banner_HomeFinal.png');
+  }
+  .products {
+    background-image: url('../images/AtlanticPrepaid_Banner_Products.png');
+  }
+  .aboutus {
+    background-image: url('../images/AtlanticPrepaid_Banner_AboutUs.png');
+  }
+  .blogs {
+    background-image: url('../images/AtlanticPrepaid_Banner_Blog.png');
+  }
+  .contactus {
+    background-image: url('../images/AtlanticPrepaid_Banner_ContactUs.png');
+  }
+
+  
+  
+
+
 

@@ -8,10 +8,11 @@
 						  phoneNumber: contactUsForm.phoneNumber.value,
 						  address: contactUsForm.address.value, 
 						  chooseOption: contactUsForm.chooseOption.value,
-						  message: contactUsForm.message.value };
+						  message: contactUsForm.message.value,
+							userId: contactUsForm.USERID.value};
 			
 		var formData = JSON.stringify(apiData); 
-    	alert(formData);
+    	//alert(formData);
 		
     	$.ajax(
         {
@@ -24,7 +25,7 @@
             processData: false,
             success:function(data, textStatus, jqXHR){
                 //data: return data from server
-                alert('it worked'+this.jqXHR);
+                alert('it worked');
                 //courseId = data;
             	
             },error: function(jqXHR, textStatus, errorThrown){
