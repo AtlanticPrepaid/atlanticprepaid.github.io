@@ -5860,7 +5860,7 @@ a.badge:hover, a.badge:focus {
 	line-height: 1.71429;
 	background-color: #191919;
 	border: 1px solid #ddd;
-	border-radius: 5px;
+	border-radius: 0px;
 	-webkit-transition: border 0.2s ease-in-out;
 	-o-transition: border 0.2s ease-in-out;
 	transition: border 0.2s ease-in-out;

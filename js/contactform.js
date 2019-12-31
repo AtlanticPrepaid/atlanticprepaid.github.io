@@ -1,6 +1,5 @@
 (function ($) {   
 	jQuery('#contact-form').click(function () {
-		
 		var formData = new FormData($('#contactUsForm')[0]);
     	const apiData = { firstName: contactUsForm.firstName.value, 
 						  lastName: contactUsForm.lastName.value,
@@ -26,11 +25,13 @@
             success:function(data, textStatus, jqXHR){
                 //data: return data from server
                 alert('it worked');
+               
                 //courseId = data;
             	
             },error: function(jqXHR, textStatus, errorThrown){
                 //if fails   
-                alert('it didnt work');   
+                alert('it didnt work');  
+               
             }
         });
         
