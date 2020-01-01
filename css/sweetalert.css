@@ -684,3 +684,8 @@ body.stop-scrolling {
     transform: translateY(145%);
   }
 }
+h2{
+  font-family: futura-light;
+  font-size: 3.5rem;
+}
+
