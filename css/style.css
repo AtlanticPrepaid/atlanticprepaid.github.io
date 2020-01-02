@@ -10389,7 +10389,8 @@ mark, .mark {
 }
 
 .bg-gray-lighter {
-	background: #f5f5f5;
+	/* background: #f5f5f5; */
+	background: #ffffff;
 	fill: #f5f5f5;
 }
 
@@ -30075,7 +30076,7 @@ html:not(.lt-ie10) .not-animated {
 
 @media (min-width: 768px) {
 	.owl-carousel-default .owl-dots {
-		text-align: left;
+		text-align: center;
 	}
 }
 

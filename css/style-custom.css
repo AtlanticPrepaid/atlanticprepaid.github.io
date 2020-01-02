@@ -1,24 +1,36 @@
 /* @media (min-width: 320px) { */
    
 
-
 @media (max-width: 2400px) {
 
 }
 
 @media (max-width: 1920px) {
+    .gift-card-img-container{
+        text-align: left;
+    }
+    .gift-card-img-grp-align{
+        text-align: center;
+    }
+    .list.list-unstyled.futura-light.mobile-number{
+        font-size: 1.5rem;
+    }
+    .footer-brand.reveal-inline-block.footer-content-div-logo{
+        margin-left: 46px;
+    }
     .head-text-color.products-terminal-text.futura-heavy{
-        font-size: 22px;
+        font-size: 2.0rem;
     }
     .terminal-img-container .shopping-terminal-img{
         width: 40%;
         margin-top: 5.0rem;
     }
     .futura-light.section-animate-small-text.contact-detail{
-        font-size: 1.8rem;
+        font-size: 1.7rem;
+        line-height: 1.35;
     }
     .user-talking-icon{
-        width: 10%;
+        width: 12%;
     }
     .futura-heavy.about-us-bottom-img-heavy-content{
         font-size: 4.8rem;
@@ -37,6 +49,12 @@
     }
     .head-small-text.futura-light{
         font-size: 2.0rem;
+    }
+    .animateItem-1.futura-light.section-animate-small-text{
+        font-size: 1.8rem;
+    }
+    .futura-light.section-animate-small-text-1{
+        font-size: 1.8rem;
     }
     .animateItem.futura-light.section-animate-small-text{
         font-size: 2.0rem;
@@ -59,7 +77,7 @@
         padding: 15px 15px;
     }
     .futura-heavy.contact-in-footer{
-        font-size: 25px;
+        font-size: 2.0rem;
     }
     .futura-heavy.about-us-div-head-text{
         font-size: 25px;
@@ -68,15 +86,16 @@
         font-size: 25px;
     }
     .gift-card-img {
-        width: 80%;
+        width: 100%;
         margin-left: -50;
     }
     .gift-card-img-grp-1 ,.gift-card-img-grp-2{
-        width: 50%;
+        width: 55%;
     }
 }
 /* Only for to decrease label font size available in products.html */
 @media (max-width: 1199px){
+    
     .product-img-label{
         font-size: 1.2rem;
     }
@@ -86,8 +105,11 @@
     }
 }
 @media (max-width: 1024px) {
-    .img-responsive.reveal-inline-block.footer-content-logo{
-        margin-left: 4.5rem;
+    .gift-card-img-container{
+        text-align: left;
+    }
+    .gift-card-img-grp-align{
+        text-align: center;
     }
     .animateItem.futura-light.section-animate-small-text{
         font-size: 1.7rem;
@@ -109,7 +131,7 @@
         line-height: 1.25;
     }
     .futura-heavy.contact-in-footer{
-        font-size: 25px;
+        font-size: 2.0rem;
     }
     .img-product1-width{
         width: 100%;
@@ -201,10 +223,10 @@
         width: 50%;
     }
     .gift-card-img-container .gift-card-img{
-        width: 80%;
+        width: 100%;
     }
     .head-text-color.products-terminal-text.futura-heavy{
-        font-size: 22px;
+        font-size: 2.0rem;
     }
     .terminal-img-container .shopping-terminal-img{
         width: 60%;
@@ -246,7 +268,7 @@
         width: 20%;
     }
     .img-responsive.reveal-inline-block.footer-content-logo{
-        margin-left: 0rem;
+        margin-left: -3.8rem;
     }
     .futura-heavy.contact-in-footer{
         font-size: 1.8rem;
@@ -330,12 +352,15 @@
         margin-right: 50px;
         margin-top: 12px;
     }
+    .gift-card-img-container{
+        text-align: center;
+    }
     .gift-card-img-container .gift-card-img{
-        width: 50%; 
+        width: 40%;
         margin-bottom: 3.0rem;
     }
     .gift-card-img-grp-align .gift-card-img-grp-1{
-        width: 50%;
+        width: 40%;
         text-align: center;
         margin-bottom: 3.0rem;
     }
@@ -343,7 +368,7 @@
         text-align: center;
     }
     .gift-card-img-grp-align .gift-card-img-grp-2{
-        width: 50%;
+        width: 40%;
         margin-left: 0px;
         margin-bottom: 3.0rem;
     }
@@ -355,7 +380,7 @@
       
     }
     .head-text-color.products-terminal-text.futura-heavy{
-        font-size: 18px;
+        font-size: 1.8rem;
     }
     
     .futura-heavy.about-us-div-head-text{
@@ -399,12 +424,12 @@
 
 .img-product1-width{
     width: 100%;
-    filter: drop-shadow(4px 4px 1px #de8751)
+    filter: drop-shadow(4px 4px 0px #de8751)
    
 }
 .img-product2-width{
     width: 100%;
-    filter: drop-shadow(4px 4px 1px #bf3c5b)
+    filter: drop-shadow(4px 4px 0px #bf3c5b)
     
 }
 
@@ -464,7 +489,7 @@
 .contact-us{
     text-align: left;
     color: black;
-    line-height: 1.11429;
+    line-height: 1.01429;
 }
 .section80{
     margin-top: 110;
@@ -472,9 +497,7 @@
 .gift-card-text{
     text-align: left;
 }
-.gift-card-img-container{
-    text-align: center;
-}
+
 
 .terminal-text{
     text-align: left;
@@ -498,7 +521,8 @@
 
 .btn-properties{
 	color : #ffffff;
-    background-color : #ce1d45 ;
+    background-color :#AB1E2E ; 
+    /* background-color : #ce1d45 ; */
     border: none;
 }
 .btn-about-us{
@@ -569,19 +593,9 @@
 .select2-selection {
     display: none;
   }
-/* @font-face{
-    font-family: 'futura-light';
-    src: url('../fonts/FuturaFont/futura\ light\ bt.ttf') format('truetype');
-} 
-@font-face{
-    font-family: 'futura-heavy';
-    src: url('../fonts/FuturaFont/Futura\ Heavy\ font.ttf') format('truetype');
-} 
-@font-face{
-    font-family: 'futura-medium';
-    src: url('../fonts/FuturaFont/futura\ medium\ bt.ttf') format('truetype');
-}  */
-
+.product-img-label{
+    color: black;
+}
 
 @font-face{
     font-family: 'futura-light';

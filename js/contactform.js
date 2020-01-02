@@ -26,7 +26,8 @@
                 // alert('it worked');
                 swal("Success", "We have received your message. Atlantic Prepaid representative will contact you shortly.", "success");
                 //courseId = data;
-            	
+                var frm = document.getElementsByName('contactUsForm')[0];
+                frm.reset();
             },error: function(jqXHR, textStatus, errorThrown){
                 //if fails   
                 swal("Error", "Some error has occured. Please try again later.", "error"); 
