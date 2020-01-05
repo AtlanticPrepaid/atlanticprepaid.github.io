@@ -2,7 +2,9 @@
    
 
 @media (max-width: 2400px) {
-
+    .overflow-button.section-md-bottom-110{
+        margin-top: 5.0rem;
+    }
 }
 
 @media (max-width: 1920px) {
@@ -92,6 +94,9 @@
     .gift-card-img-grp-1 ,.gift-card-img-grp-2{
         width: 55%;
     }
+    .overflow-button.section-md-bottom-110{
+        margin-top: 5.0rem;
+    }
 }
 /* Only for to decrease label font size available in products.html */
 @media (max-width: 1199px){
@@ -102,6 +107,9 @@
     .futura-light.section-animate-small-text.index-text-line-height{
         font-size: 1.7rem;
 
+    }
+    .overflow-button.section-md-bottom-110{
+        margin-top: 5.0rem;
     }
 }
 @media (max-width: 1024px) {
@@ -241,6 +249,9 @@
         text-align: left;
         margin-left: 85px;
         padding: 15px 15px;
+    }
+    .overflow-button.section-md-bottom-110{
+        margin-top: 5.0rem;
     }
 }
 @media (max-width: 992px){
@@ -595,6 +606,9 @@
   }
 .product-img-label{
     color: black;
+}
+.list.list-unstyled.futura-light.mobile-number li a:hover{
+    color: #e28bf4;
 }
 
 @font-face{

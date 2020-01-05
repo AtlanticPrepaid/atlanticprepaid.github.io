@@ -11099,6 +11099,10 @@ fieldset[disabled] .btn-primary {
 		padding-top: 65px;
 		padding-bottom: 65px;
 	}
+	.section-md-75 {
+		padding-top: 75px;
+		padding-bottom: 110px;
+	}
 	.section-md-80 {
 		padding-top: 80px;
 		padding-bottom: 80px;
@@ -11112,7 +11116,7 @@ fieldset[disabled] .btn-primary {
 		padding-bottom: 100px;
 	}
 	.section-md-110 {
-		padding-top: 75px;
+		padding-top: 110px;
 		padding-bottom: 110px;
 	}
 	.section-md-140 {
@@ -20465,7 +20469,7 @@ fieldset[disabled] .btn-primary {
 		min-height: 135vh;
 	}
 	.section-animate.header-text {
-		min-height: 60vh;
+		min-height: 40vh;
 	}
 	
 	.section-animate.start > div {
@@ -26034,7 +26038,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list {
-	margin-top: 5px;
+	margin-top: 1%;
 	display: inline-block;
 }
 
@@ -26061,7 +26065,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
  @media (min-width: 1200px) {
 	.rd-navbar-default.rd-navbar-static .rd-navbar-panel {
-		padding: 15px 60px;
+		padding: 10px 60px;
 	}
 } 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-toggle {
