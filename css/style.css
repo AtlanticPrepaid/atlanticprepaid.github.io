@@ -26049,7 +26049,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list .icon:hover {
-	color: #ff1654;
+	color: #ffffff;
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-brand {
@@ -32450,7 +32450,7 @@ a.pswp__share--download:hover {
 	position: fixed;
 	right: 15px;
 	bottom: 15px;
-	color: ##a79d9d;
+	color: #6e0046;
 	box-shadow: 0px 0px 1px 0 rgba(0, 0, 0, 0.15);
 	overflow: hidden;
 	z-index: 1;
@@ -32459,13 +32459,14 @@ a.pswp__share--download:hover {
 }
 
 .ui-to-top:focus {
-	color: #ff1654;
+	/* color: #ff1654; */
+	color: #6e0046;
 }
 
 .ui-to-top:hover {
 	color: #fff;
-	background: #ff1654;
-	border-color: #ff1654;
+	background: #6e0046;
+	border-color: #6e0046;
 }
 
 .ui-to-top.active {
