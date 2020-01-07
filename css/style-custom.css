@@ -250,7 +250,7 @@
     }
     .copyright{
         font-size: 14px;
-        color: #aa1bce;
+        color: #5f5f5f;
         text-align: left;
         margin-left: 85px;
         padding: 15px 15px;
@@ -299,6 +299,9 @@
     }
     .head-text-color.home-head-text.futura-heavy{
         font-size: 13px;
+    }
+    .head-text-color.home-head-text.futura-heavy.beyond-card-text{
+        font-size: 2.5rem;
     }
     .head-small-text.futura-light{
         font-size: 11px;
@@ -414,7 +417,7 @@
         width: 20%;
     }
     .copyright{
-        color: #aa1bce;
+        color: #5f5f5f;
         text-align: left;
         padding: 8px 10px;
     }
