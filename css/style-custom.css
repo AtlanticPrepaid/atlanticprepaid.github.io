@@ -5,6 +5,7 @@
     .overflow-button.section-md-bottom-110{
         margin-top: 5.0rem;
     }
+
 }
 
 @media (max-width: 1920px) {
@@ -80,7 +81,7 @@
         font-size: 14px;
         color: #5f5f5f;
         text-align: left;
-        margin-left: 85px;
+        margin-left: 42px;
         padding: 15px 15px;
     }
     .futura-heavy.contact-in-footer{
@@ -252,7 +253,7 @@
         font-size: 14px;
         color: #5f5f5f;
         text-align: left;
-        margin-left: 85px;
+        margin-left: 42px;
         padding: 15px 15px;
     }
     .overflow-button.section-md-bottom-110{
@@ -416,15 +417,20 @@
     .user-talking-icon{
         width: 20%;
     }
-    .copyright{
+    .copyright.futura-light{
+        font-size: 1.4rem;
         color: #5f5f5f;
         text-align: left;
         padding: 8px 10px;
     }
 } 
 @media (max-width: 479px) {
+    .copyright.futura-light{
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+    }
     .footer-brand.reveal-inline-block.footer-content-div-logo{
-        width: 25%;
+        width: 35%;
     }
     .logo-size{
         width: 50%;
