@@ -5,10 +5,16 @@
     .overflow-button.section-md-bottom-110{
         margin-top: 5.0rem;
     }
+    .break-line{
+        white-space: pre-line;
+    }
 
 }
 
 @media (max-width: 1920px) {
+    .break-line{
+        white-space: pre-line;
+    }
     .ui-to-top {
 		right: 40px;
 		bottom: 7px;
@@ -53,7 +59,7 @@
         width:100%;
     }
     .head-text-color.home-head-text.futura-heavy{
-        font-size: 2.5rem;
+        font-size: 3.2rem;
     }
     .head-small-text.futura-light{
         font-size: 2.0rem;
@@ -106,7 +112,9 @@
 }
 /* Only for to decrease label font size available in products.html */
 @media (max-width: 1199px){
-    
+    .break-line{
+        white-space: pre-line;
+    }
     .product-img-label{
         font-size: 1.2rem;
     }
@@ -119,6 +127,9 @@
     }
 }
 @media (max-width: 1024px) {
+    .break-line{
+        white-space: pre-line;
+    }
     .gift-card-img-container{
         text-align: left;
     }
@@ -261,6 +272,12 @@
     }
 }
 @media (max-width: 992px){
+    .section-animate.to-front.bg-white.owl-carousel-container{
+        min-height: 70vh;
+    }
+    .break-line{
+        white-space: normal;
+    }
     .terminal-img-container .shopping-terminal-img{
         width: 30%;
         margin-top: 0rem;
@@ -278,6 +295,9 @@
     }
 }
 @media (max-width: 767px) {
+    .break-line{
+        white-space: normal;
+    }
     .ui-to-top {
 		right: 40px;
 		bottom: 7px;
@@ -425,6 +445,9 @@
     }
 } 
 @media (max-width: 479px) {
+    .break-line{
+        white-space: normal;
+    }
     .copyright.futura-light{
         font-size: 1.2rem;
         margin-left: 1.5rem;
@@ -444,6 +467,9 @@
     }
 }
 @media (max-width: 380px) {
+    .break-line{
+        white-space: normal;
+    }
     .logo-size{
         width: 70%;
     }
@@ -631,6 +657,9 @@
 }
 .icon.fa-instagram.soc-media-icon{
     color: red;
+}
+.section-animate.to-front.bg-white.owl-carousel-container{
+    min-height: 115vh;
 }
 
 @font-face{
