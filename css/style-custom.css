@@ -12,6 +12,9 @@
 }
 
 @media (max-width: 1920px) {
+    .offset-md-50{
+        padding-left: 250px;
+    }
     .break-line{
         white-space: pre-line;
     }
