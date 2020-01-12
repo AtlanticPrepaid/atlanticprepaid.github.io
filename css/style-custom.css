@@ -1,7 +1,47 @@
 /* @media (min-width: 320px) { */
-   
-
+    @media (max-width: 2561px) {
+        .masterhead {
+            height: 0vh;
+            min-height: 1274px;
+        }
+        .logo-div-size{
+            width: 13%;
+        }
+        .logo-size{
+            width:100%;
+        }
+        
+        .head-small-text.futura-light{
+            font-size: 2.9rem;
+        }
+        .head-text-color.home-head-text.futura-heavy{
+            font-size: 4.9rem;
+        }
+        .overflow-button.section-md-bottom-110{
+            margin-top: 5.0rem;
+        }
+        .break-line{
+            white-space: pre-line;
+        }
+    }
 @media (max-width: 2400px) {
+    .masterhead {
+        height: 0vh;
+        min-height: 1080px;
+    }
+    .logo-div-size{
+        width: 13%;
+    }
+    .logo-size{
+        width:100%;
+    }
+    
+    .head-small-text.futura-light{
+        font-size: 2.9rem;
+    }
+    .head-text-color.home-head-text.futura-heavy{
+        font-size: 4.9rem;
+    }
     .overflow-button.section-md-bottom-110{
         margin-top: 5.0rem;
     }
@@ -10,8 +50,11 @@
     }
 
 }
-
 @media (max-width: 1920px) {
+    .masterhead {
+        height: 0vh;
+        min-height: 970px;
+    }
     .offset-md-50{
         padding-left: 250px;
     }
@@ -113,8 +156,30 @@
         margin-top: 5.0rem;
     }
 }
+@media (max-width: 1550px){
+    .planogram-img-dimention{
+        margin-left: -160px !important;
+        width: 30%;
+    }
+    .card-img-dimention{
+        margin-left: -160px !important;
+        width: 95%;
+    }
+    .pos-img-dimention{
+        margin-left: -160px !important;
+        width: 60%;
+    }
+    .masterhead {
+        height: 0vh;
+        min-height: 686px;
+    }
+}
 /* Only for to decrease label font size available in products.html */
 @media (max-width: 1199px){
+    .masterhead {
+        height: 0vh;
+        min-height: 610px;
+    }
     .break-line{
         white-space: pre-line;
     }
@@ -130,6 +195,9 @@
     }
 }
 @media (max-width: 1024px) {
+    .offset-md-50{
+        padding-left: 100px;
+    }
     .break-line{
         white-space: pre-line;
     }
@@ -298,6 +366,9 @@
     }
 }
 @media (max-width: 767px) {
+    .offset-md-50{
+        padding-left: 0px;
+    }
     .break-line{
         white-space: normal;
     }
@@ -448,6 +519,19 @@
     }
 } 
 @media (max-width: 479px) {
+    .planogram-img-dimention{
+        margin-left: auto !important;
+    }
+    .card-img-dimention{
+        margin-left: auto !important;
+    }
+    .pos-img-dimention{
+        margin-left: auto !important;
+    }
+    .masterhead {
+        height: 0vh;
+        min-height: 18.9rem;
+    }
     .break-line{
         white-space: normal;
     }
@@ -461,15 +545,16 @@
     .logo-size{
         width: 50%;
     }
-    .masterhead {
-        height: 0vh;
-        min-height: 21.0rem;
-    }
+    c
     .rd-navbar-default.rd-navbar-fixed, .rd-navbar-default.rd-navbar-fixed .rd-navbar-panel{
         height: 5.9rem;
     }
 }
 @media (max-width: 380px) {
+    .masterhead {
+        height: 0vh;
+        min-height: 18.9rem;
+    }
     .break-line{
         white-space: normal;
     }
@@ -480,6 +565,7 @@
         margin-top: 0.7rem;
     }
 }
+
 
 .img-product1-width{
     width: 100%;
@@ -501,7 +587,7 @@
 }
 
 .head-small-text{
-    color: #727272;
+    color: #797979;
 }
 
 .futura-heavy.about-us-bottom-img-heavy-content {
