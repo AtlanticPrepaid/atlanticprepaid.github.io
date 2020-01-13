@@ -1,29 +1,94 @@
 /* @media (min-width: 320px) { */
-    @media (max-width: 2561px) {
-        .masterhead {
-            height: 0vh;
-            min-height: 1274px;
-        }
-        .logo-div-size{
-            width: 13%;
-        }
-        .logo-size{
-            width:100%;
-        }
-        
-        .head-small-text.futura-light{
-            font-size: 2.9rem;
-        }
-        .head-text-color.home-head-text.futura-heavy{
-            font-size: 4.9rem;
-        }
-        .overflow-button.section-md-bottom-110{
-            margin-top: 5.0rem;
-        }
-        .break-line{
-            white-space: pre-line;
-        }
+@media (max-width: 2561px) {
+    .card-img-dimention{
+        margin-left: -180px !important;
+        width: 95%;
     }
+    .pos-img-dimention{
+        margin-left: -180px !important;
+        width: 60%;
+    }
+    .futura-light.section-animate-small-text{
+        font-size: 3.2rem;
+    }
+    .futura-heavy.section-animate-large-text{
+        font-size: 50px;
+        color: #1a1a1a;
+    }
+    .shell, .shell-wide {
+		max-width: 2000px;
+	}
+    .offset-md-360{
+        padding-left: 360px;
+    }
+    .copyright{
+        font-size: 2.8rem !important;
+        color: #5f5f5f;
+        text-align: left;
+        margin-left: 42px;
+        padding: 15px 15px;
+    }
+    .footer-content-logo{
+        width: 100%;
+        margin-left: 5.0rem;
+    }
+    .futura-light.bottom-img-light-content{
+        font-size: 3.4rem;
+    }
+    .futura-heavy.bottom-img-heavy-content{
+        font-size: 7.8rem;
+        color: #ffffff;
+    }
+    .planogram-img-dimention{
+        margin-left: -160px !important;
+        width: 30%;
+    }
+    .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list .icon{
+        font-size: 4.5rem;
+    }
+    .margin-top-10{
+        margin-top: 3.5rem !important;
+    }
+    .futura-light.mobile-number{
+        font-size: 3.0rem ;
+    }
+    .phone-number-icon{
+        font-size: 5.0rem ;
+        line-height: 33px;
+        color: #fff;
+    }
+    .nav-link{
+        color: #ffffff;
+        margin-top: 9%;
+    }
+    .margin-head-small-text{
+        margin-top: -2%;
+        margin-bottom: 4% !important;
+    }
+    .masterhead {
+        height: 0vh;
+        min-height: 1274px;
+    }
+    .logo-div-size{
+        width: 13%;
+    }
+    .logo-size{
+        width:100%;
+    }
+    
+    .head-small-text.futura-light{
+        font-size: 2.9rem;
+    }
+    .head-text-color.home-head-text.futura-heavy{
+        font-size: 4.9rem;
+    }
+    .overflow-button.section-md-bottom-110{
+        margin-top: 5.0rem;
+    }
+    .break-line{
+        white-space: pre-line;
+    }
+}
 @media (max-width: 2400px) {
     .masterhead {
         height: 0vh;
@@ -51,6 +116,15 @@
 
 }
 @media (max-width: 1920px) {
+    .icon.fa-phone.phone-number-icon.phone-number-icon{
+        font-size: 45px;
+    }
+    .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list .icon{
+        font-size: 4.5rem;
+    }
+    .nav-link{
+        margin-top: 3%;
+    }
     .masterhead {
         height: 0vh;
         min-height: 970px;
@@ -157,12 +231,39 @@
     }
 }
 @media (max-width: 1550px){
+    .list-inline.futura-heavy.nav-link{
+        font-size: 20px;
+    }
+    .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list .icon{
+        font-size: 2.5rem;
+    }
+    .futura-light.mobile-number{
+        font-size: 2.0rem;
+    }
+    .icon.fa-phone.phone-number-icon.phone-number-icon{
+        font-size: 30px;
+    }
+    .shell, .shell-wide {
+		max-width: 1200px;
+	}
+    .futura-heavy.section-animate-large-text{
+        font-size: 36px;
+        color: #1a1a1a;
+    }
+    .nav-link{
+        color: #ffffff;
+        margin-top: 0%;
+        font-size: 25px ;
+    }
+    .margin-top-10{
+        margin-top: 10px !important ;
+    }
     .planogram-img-dimention{
         margin-left: -160px !important;
         width: 30%;
     }
     .card-img-dimention{
-        margin-left: -160px !important;
+        margin-left: -120px !important;
         width: 95%;
     }
     .pos-img-dimention{
@@ -176,6 +277,24 @@
 }
 /* Only for to decrease label font size available in products.html */
 @media (max-width: 1199px){
+
+    .nav-link{
+        color: #ffffff;
+        margin-top: -2%;
+        font-size: 20px !important;
+    }
+    .planogram-img-dimention{
+        margin-left: -50px !important;
+        width: 30%;
+    }
+    .card-img-dimention{
+        margin-left: -50px !important;
+        width: 85%;
+    }
+    .pos-img-dimention{
+        margin-left: -50px !important;
+        width: 60%;
+    }
     .masterhead {
         height: 0vh;
         min-height: 610px;
@@ -343,6 +462,11 @@
     }
 }
 @media (max-width: 992px){
+    
+    .margin-head-small-text{
+        margin-top: unset;
+        margin-bottom: 0% !important;
+    }
     .section-animate.to-front.bg-white.owl-carousel-container{
         min-height: 70vh;
     }
@@ -357,7 +481,7 @@
         width: 15%; 
      }
      .img-responsive.reveal-inline-block.footer-content-logo{
-         margin-top: 6.0rem;
+         margin-top: 3.0rem;
          margin-bottom: -4.5rem;
      }
      .futura-light.section-animate-small-text.contact-detail{
@@ -366,6 +490,27 @@
     }
 }
 @media (max-width: 767px) {
+    .nav-link{
+        color: #ffffff;
+        margin-top: -2%;
+        font-size: 17px !important;
+    }
+    .planogram-img-dimention{
+        margin-left: auto !important;
+    }
+    .card-img-dimention{
+        margin-left: auto !important;
+    }
+    .pos-img-dimention{
+        margin-left: auto !important;
+    }
+    .img-responsive.reveal-inline-block.footer-content-logo{
+        margin-top: 0rem;
+        margin-bottom: -4.5rem;
+    }
+    .margin-top-10{
+        margin-top: 0px !important;
+    }
     .offset-md-50{
         padding-left: 0px;
     }
@@ -530,7 +675,7 @@
     }
     .masterhead {
         height: 0vh;
-        min-height: 18.9rem;
+        min-height: 20.9rem;
     }
     .break-line{
         white-space: normal;
@@ -566,7 +711,6 @@
     }
 }
 
-
 .img-product1-width{
     width: 100%;
     filter: drop-shadow(4px 4px 0px #de8751)
@@ -587,19 +731,13 @@
 }
 
 .head-small-text{
-    color: #797979;
+    color: #939393;
 }
 
 .futura-heavy.about-us-bottom-img-heavy-content {
     color: #ce1b45;
 }
 
-
-.phone-number-icon{
-    font-size: 25px;
-    line-height: 33px;
-    color: #fff;
-}
 .phone-number-icon:hover{
     color: #ffffff;
 }
@@ -659,11 +797,6 @@
     text-align: left;
     margin-left: 50px;
 }
-.section-animate-large-text{
-    font-size: 36px;
-    color: #1a1a1a;
-}
-
 .btn-properties{
 	color : #ffffff;
     background-color :#AB1E2E ; 

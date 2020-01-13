@@ -1466,7 +1466,7 @@ body {
 	/* font-family: Roboto; */
 	font-size: 14px;
 	line-height: 1.51429;
-	color: #797979;
+	color: #939393;
 	background-color: #191919;
 }
 
@@ -7922,6 +7922,7 @@ iframe {
 		max-width: 1800px;
 	}
 }
+
 
 .range {
 	margin-left: -15px;
@@ -26039,7 +26040,7 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 }
 
 .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list .icon {
-	font-size: 25px;
+	font-size: 20px;
 	line-height: 16px;
 	color: #fff;
 }
