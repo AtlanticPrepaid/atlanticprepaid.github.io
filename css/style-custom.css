@@ -130,6 +130,9 @@
 
 }
 @media (max-width: 1950px) {
+    .footer-content-logo{
+        margin-left: 0px;
+    }
     .icon-size{
         width: 8.0rem;
         height: 8.0rem;
