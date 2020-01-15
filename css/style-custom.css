@@ -1,5 +1,8 @@
 /* @media (min-width: 320px) { */
 @media (max-width: 2561px) {
+    .container{
+        width: 100%;
+    }
     .icon-size{
         width: 10.0rem;
         height: 10.0rem;
@@ -130,6 +133,9 @@
 
 }
 @media (max-width: 1950px) {
+    .container{
+        width: 87%;
+    }
     .footer-content-logo{
         margin-left: 0px;
     }
@@ -246,7 +252,7 @@
         font-size: 2.0rem;
     }
     .futura-heavy.about-us-div-head-text{
-        font-size: 25px;
+        font-size: 3.0rem;
     }
     .futura-heavy.about-us-div-head-text.contact-info{
         font-size: 25px;
@@ -263,6 +269,9 @@
     }
 }
 @media (max-width: 1550px){
+    .container{
+        width: 100%;
+    }
     .icon-size{
         width: 6.0rem;
         height: 6.0rem;
