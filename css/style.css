@@ -11293,7 +11293,23 @@ fieldset[disabled] .btn-primary {
 .section-top-260 {
 	padding-top: 260px;
 }
-
+@media (min-width: 320px) {
+	.section-top-10{
+		padding-top: 10px;
+	}
+	.section-top-20{
+		padding-top: 20px;
+	}
+	.section-top-30{
+		padding-top: 30px;
+	}
+	.section-top-40{
+		padding-top: 40px;
+	}
+	.section-top-50{
+		padding-top: 50px;
+	}
+}
 @media (min-width: 480px) {
 	.section-xs-top-0 {
 		padding-top: 0;

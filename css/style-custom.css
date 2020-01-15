@@ -147,6 +147,12 @@
 
 }
 @media (max-width: 1950px) {
+    .futura-heavy.about-us-bottom-img-heavy-content{
+        font-size: 6.8rem;
+    }
+    .futura-light.about-us-bottom-img-light-content{
+        font-size: 3.0rem;
+    }
     .container{
         width: 87%;
     }
@@ -249,11 +255,11 @@
         font-size: 2.8rem;
     }
     .futura-heavy.bottom-img-heavy-content{
-        font-size: 4.8rem;
+        font-size: 6.8rem;
         color: #ffffff;
     }
     .futura-light.bottom-img-light-content{
-        font-size: 24px;
+        font-size: 3.0rem;
     }
     .copyright.futura-light{
         font-size: 16px;
@@ -359,6 +365,13 @@
 }
 /* Only for to decrease label font size available in products.html */
 @media (max-width: 1199px){
+    .futura-heavy.about-us-bottom-img-heavy-content{
+        font-size: 4.8rem;
+    }
+    .futura-heavy.bottom-img-heavy-content{
+        font-size: 4.8rem;
+        color: #ffffff;
+    }
     .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-list .icon{
         font-size: 1.8rem;
     }
@@ -399,6 +412,9 @@
 }
 
 @media (max-width: 1024px) {
+    .futura-light.about-us-bottom-img-light-content{
+        font-size: 2.4rem;
+    }
     .offset-md-50{
         padding-left: 100px;
     }
@@ -480,8 +496,7 @@
         color: #828282;
     }
     .futura-heavy.about-us-bottom-img-heavy-content{
-        font-size: 48px;
-        color: #ce1b45;
+        font-size: 3.8rem;
     }
     .masterhead {
         height: 0vh;
@@ -500,10 +515,9 @@
         padding: 0% 5%;
     }
     .futura-heavy.bottom-img-heavy-content{
-        font-size: 3.5rem;
+        font-size: 3.8rem;
         color: #ffffff;
     }
-    
     .futura-light.bottom-img-light-content{
         font-size: 20px;
         color: #ffffff;
@@ -828,7 +842,7 @@
     color: #939393;
 }
 
-.futura-light.about-us-bottom-img-heavy-content {
+.futura-heavy.about-us-bottom-img-heavy-content {
     color: #ffffff;
 }
 
@@ -915,7 +929,7 @@
 	color: #ffffff;
 }
 
-.futura-medium.about-us-bottom-img-light-content{
+.futura-light.about-us-bottom-img-light-content{
 	color: #ffffff ;
 }
 .blog-img-content{
