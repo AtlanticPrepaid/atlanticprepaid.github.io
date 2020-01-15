@@ -768,11 +768,11 @@
         white-space: normal;
     }
     .logo-size{
-        width: 70%;
+        width: 60%;
     }
-    .rd-navbar-brand.logo-div-size{
+    /* .rd-navbar-brand.logo-div-size{
         margin-top: 0.7rem;
-    }
+    } */
 }
 
 .img-product1-width{

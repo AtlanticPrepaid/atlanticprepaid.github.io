@@ -26058,9 +26058,9 @@ fieldset[disabled] .box-planning-type-4.active .btn-default {
 	display: none;
 }
 
-.rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-brand img {
+/* .rd-navbar-default.rd-navbar-static .rd-navbar-panel .rd-navbar-brand img {
 	margin-top: -5px;
-}
+} */
  @media (min-width: 1200px) {
 	.rd-navbar-default.rd-navbar-static .rd-navbar-panel {
 		padding: 10px 60px;
