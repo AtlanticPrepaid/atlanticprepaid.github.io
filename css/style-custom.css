@@ -1,5 +1,19 @@
 /* @media (min-width: 320px) { */
 @media (max-width: 2561px) {
+    .futura-light.about-us-bottom-img-light-content{
+        font-size: 3.4rem;
+    }
+    .futura-heavy.about-us-bottom-img-heavy-content{
+        font-size: 7.8rem;
+    }
+    .about-us-img{
+        text-align: center; 
+        width: 85%;
+        height: 100%;
+    }
+    .about-us-container{
+        text-align: left;
+    }
     .container{
         width: 100%;
     }
@@ -217,7 +231,7 @@
         width:100%;
     }
     .head-text-color.home-head-text.futura-heavy{
-        font-size: 3.2rem;
+        font-size: 4.2rem;
     }
     .head-small-text.futura-light{
         font-size: 2.0rem;
@@ -269,6 +283,9 @@
     }
 }
 @media (max-width: 1550px){
+    .head-text-color.home-head-text.futura-heavy{
+        font-size: 3.2rem;
+    }
     .container{
         width: 100%;
     }
@@ -380,6 +397,7 @@
         margin-top: 5.0rem;
     }
 }
+
 @media (max-width: 1024px) {
     .offset-md-50{
         padding-left: 100px;
@@ -477,7 +495,7 @@
     }
     .about-us-img{
         text-align: center; 
-        width: 75%;
+        width: 100%;
         height: 100%;
         padding: 0% 5%;
     }
@@ -810,8 +828,8 @@
     color: #939393;
 }
 
-.futura-heavy.about-us-bottom-img-heavy-content {
-    color: #ce1b45;
+.futura-light.about-us-bottom-img-heavy-content {
+    color: #ffffff;
 }
 
 .phone-number-icon:hover{
@@ -842,9 +860,6 @@
 .contact-info-row{
     margin-top: 70px;
 }
-
-
-
 .contact-us{
     text-align: left;
     color: black;
@@ -901,8 +916,7 @@
 }
 
 .futura-medium.about-us-bottom-img-light-content{
-    font-size: 24px;
-	color: #000000 ;
+	color: #ffffff ;
 }
 .blog-img-content{
     font-size: 18px;
