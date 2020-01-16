@@ -147,6 +147,14 @@
 
 }
 @media (max-width: 1950px) {
+    .planogram-img-dimention{
+        margin-left: -230px !important;
+        width: 30%;
+    }
+    .pos-img-dimention{
+        margin-left: -270px !important;
+        width: 63%;
+    }
     .futura-heavy.about-us-bottom-img-heavy-content{
         font-size: 6.8rem;
     }
@@ -240,7 +248,7 @@
         font-size: 4.2rem;
     }
     .head-small-text.futura-light{
-        font-size: 2.0rem;
+        font-size: 2.5rem;
     }
     .animateItem-1.futura-light.section-animate-small-text{
         font-size: 2.5rem;
@@ -289,6 +297,9 @@
     }
 }
 @media (max-width: 1550px){
+    .head-small-text.futura-light{
+        font-size: 2.0rem;
+    }
     .head-text-color.home-head-text.futura-heavy{
         font-size: 3.2rem;
     }
