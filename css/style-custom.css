@@ -403,6 +403,14 @@
     }
 }
 @media (max-width: 1400px){
+    .img-product1-width{
+        width: 90%;
+        filter: drop-shadow(4px 4px 1px #de8751)
+    }
+    .img-product2-width{
+        width: 90%;
+        filter: drop-shadow(4px 4px 1px #bf3c5b)
+    }
     .form-control{
         height: 2.2rem;
     }
@@ -511,16 +519,6 @@
     .futura-heavy.contact-in-footer{
         font-size: 2.0rem;
     }
-    .img-product1-width{
-        width: 100%;
-        filter: drop-shadow(4px 4px 1px #de8751)
-       
-    }
-    .img-product2-width{
-        width: 100%;
-        filter: drop-shadow(4px 4px 1px #bf3c5b)
-        
-    }
     .index-text-line-height{
         line-height: 20px;
     }
@@ -623,6 +621,10 @@
     }
 }
 @media (max-width: 992px){
+    .img-product1-width{
+        width: 100%;
+        filter: drop-shadow(4px 4px 0px #de8751)
+    }
     .nav-link{
         margin-top: -4%;
         font-size: 1.4rem !important;
@@ -879,12 +881,6 @@
     /* .rd-navbar-brand.logo-div-size{
         margin-top: 0.7rem;
     } */
-}
-
-.img-product1-width{
-    width: 100%;
-    filter: drop-shadow(4px 4px 0px #de8751)
-   
 }
 .img-product2-width{
     width: 100%;
