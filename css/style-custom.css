@@ -1,5 +1,28 @@
 /* @media (min-width: 320px) { */
 @media (max-width: 2561px) {
+    .btn-about-us{
+        font-size: 3.0rem;
+        padding: 0.8rem 1.0rem;
+    }
+    .form-control.form-field-label.futura-light{
+        font-size: 2.0rem;
+    }
+    .form-control{
+        height: 3.8rem;
+    }
+    .form-field-label{
+        font-size: 2.0rem;
+    }
+    .user-talking-icon{
+        width: 12%;
+    }
+    .futura-light.section-animate-small-text.contact-detail{
+        font-size: 2.9rem;
+        line-height: 1.35;
+    }
+    .futura-heavy.about-us-div-head-text.contact-info{
+        font-size: 3.9rem;
+    }
     .futura-light.about-us-bottom-img-light-content{
         font-size: 3.4rem;
     }
@@ -147,6 +170,16 @@
 
 }
 @media (max-width: 1950px) {
+    .btn-about-us{
+        font-size :2.5rem;
+        padding: 8px 10px;
+    }
+    .form-control.form-field-label.futura-light{
+        font-size: 1.5rem;
+    }
+    .form-field-label{
+        font-size: 1.6rem;
+    }
     .planogram-img-dimention{
         margin-left: -230px !important;
         width: 30%;
@@ -226,8 +259,7 @@
         margin-top: 5.0rem;
     }
     .futura-light.section-animate-small-text.contact-detail{
-        font-size: 1.7rem;
-        line-height: 1.35;
+        font-size: 2.5rem;
     }
     .user-talking-icon{
         width: 12%;
@@ -283,7 +315,7 @@
         font-size: 3.0rem;
     }
     .futura-heavy.about-us-div-head-text.contact-info{
-        font-size: 25px;
+        font-size: 3.5rem;
     }
     .gift-card-img {
         width: 100%;
@@ -297,6 +329,16 @@
     }
 }
 @media (max-width: 1550px){
+    .btn-about-us{
+        font-size :18px;
+        padding: 8px 10px;
+    }
+    .futura-light.section-animate-small-text.contact-detail{
+        font-size: 2.0rem;
+    }
+    .futura-heavy.about-us-div-head-text.contact-info{
+        font-size: 2.5rem;
+    }
     .head-small-text.futura-light{
         font-size: 2.0rem;
     }
@@ -361,6 +403,12 @@
     }
 }
 @media (max-width: 1400px){
+    .form-control{
+        height: 2.2rem;
+    }
+    .form-field-label{
+        font-size: 1.5rem;
+    }
     .futura-light.mobile-number{
         font-size: 1.5rem;
     }
@@ -423,6 +471,9 @@
 }
 
 @media (max-width: 1024px) {
+    .form-field-label{
+        font-size: 1.4rem;
+    }
     .futura-light.about-us-bottom-img-light-content{
         font-size: 2.4rem;
     }
@@ -451,7 +502,7 @@
         font-size: 25px;
     }
     .futura-heavy.about-us-div-head-text.contact-info{
-        font-size: 25px;
+        font-size: 2.1rem;
     }
     .futura-light.section-animate-small-text{
         font-size: 18px;
@@ -840,11 +891,6 @@
     filter: drop-shadow(4px 4px 0px #bf3c5b)
     
 }
-
-
-.form-control.form-field-label.futura-light{
-    font-size: 1.3rem;
-}
 .head-text-color{
     color: #c91b45;
 }
@@ -919,10 +965,6 @@
     /* background-color : #ce1d45 ; */
     border: none;
 }
-.btn-about-us{
-    font-size :18px;
-    padding: 8px 10px;
-}
 .unit-body-container{
     font-size: 18px;
     color: #000000;
@@ -948,7 +990,6 @@
 	color: #302f2f;
 }
 .form-field-label{
-    font-size: 14px; 
     color: 1a1a1a;
 }
 .products-terminal-text{
