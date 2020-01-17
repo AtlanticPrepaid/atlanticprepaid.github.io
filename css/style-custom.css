@@ -1,5 +1,20 @@
 /* @media (min-width: 320px) { */
 @media (max-width: 2561px) {
+    .about-us-div-head-text.futura-heavy{
+        font-size: 4.9rem;
+    }
+    .product-img-label{
+        font-size: 2.0rem;
+    } 
+    .gift-card-img {
+        width: 100%;
+        margin-left: -50;
+        margin-top: 10% ;
+    }
+    .gift-card-img-grp-1 ,.gift-card-img-grp-2{
+        width: 60%;
+        margin-left: 20%;
+    }
     .btn-about-us{
         font-size: 3.0rem;
         padding: 0.8rem 1.0rem;
@@ -252,7 +267,7 @@
         margin-left: 46px;
     }
     .head-text-color.products-terminal-text.futura-heavy{
-        font-size: 2.0rem;
+        font-size: 3.0rem;
     }
     .terminal-img-container .shopping-terminal-img{
         width: 40%;
@@ -311,8 +326,8 @@
     .futura-heavy.contact-in-footer{
         font-size: 2.0rem;
     }
-    .futura-heavy.about-us-div-head-text{
-        font-size: 3.0rem;
+    .about-us-div-head-text.futura-heavy{
+        font-size: 4.0rem;
     }
     .futura-heavy.about-us-div-head-text.contact-info{
         font-size: 3.5rem;
@@ -329,6 +344,12 @@
     }
 }
 @media (max-width: 1550px){
+    .head-text-color.products-terminal-text.futura-heavy{
+        font-size: 2.5rem;
+    }
+    .product-img-label{
+        font-size: 1.5rem;
+    } 
     .btn-about-us{
         font-size :18px;
         padding: 8px 10px;
@@ -583,10 +604,7 @@
         margin-right: 0px;
         margin-top: 0px;
     }
-    .gift-card-img-grp-1{
-        width: 50%;
-    }
-    .gift-card-img-grp-2{
+    .gift-card-img-grp-1 ,.gift-card-img-grp-2{
         width: 50%;
     }
     .gift-card-img-container .gift-card-img{
@@ -614,6 +632,9 @@
     }
 }
 @media (max-width: 992px){
+    .product-img-label{
+        font-size: 2.0rem;
+    }
     .img-product1-width{
         width: 100%;
         filter: drop-shadow(4px 4px 0px #de8751)
