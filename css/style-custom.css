@@ -304,6 +304,11 @@
 .break-line{
     white-space: pre-line;
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 @media (max-width: 2400px) {
     .shell2, .shell-wide {
@@ -1019,14 +1024,20 @@
     }
 } 
 @media (max-width: 479px) {
+    .carousel-dimention{
+        min-height: 400px;
+        /* border: 1px solid; */
+    }
     .planogram-img-dimention{
         margin-left: auto !important;
     }
     .card-img-dimention{
         margin-left: auto !important;
+        margin-top: 30% !important;
     }
     .pos-img-dimention{
         margin-left: auto !important;
+        margin-top: 30% !important;
     }
     .masterhead {
         height: 0vh;
