@@ -1025,7 +1025,7 @@
 } 
 @media (max-width: 479px) {
     .carousel-dimention{
-        min-height: 400px;
+        min-height: 360px;
         /* border: 1px solid; */
     }
     .planogram-img-dimention{
@@ -1033,11 +1033,11 @@
     }
     .card-img-dimention{
         margin-left: auto !important;
-        margin-top: 30% !important;
+        margin-top: 25% !important;
     }
     .pos-img-dimention{
         margin-left: auto !important;
-        margin-top: 30% !important;
+        margin-top: 25% !important;
     }
     .masterhead {
         height: 0vh;
