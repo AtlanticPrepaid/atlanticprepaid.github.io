@@ -819,6 +819,26 @@
     }
 }
 @media (max-width: 800px) {
+    .futura-heavy.contact-in-footer{
+        text-align: left;
+        padding-left: 21%;
+    }
+    .list.list-unstyled.futura-light.mobile-number{
+        text-align: left;
+        padding-left: 21%;
+    }
+    .unit-horizontal > .unit-left + .unit-right, .unit-horizontal > .unit-left + .unit-body{
+        padding-left: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    .unit > [class*='unit-']:first-child, .unit-vertical > [class*='unit-']:first-child{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .unit-horizontal{
+        flex-direction: column;
+    }
     .margin-top-10{
         margin-top-10: 0px !important;
     }
@@ -840,6 +860,29 @@
     }
 }
 @media (max-width: 767px) {
+    .futura-heavy.contact-in-footer{
+        text-align: center;
+        padding-left: 0%;
+    }
+    .list.list-unstyled.futura-light.mobile-number{
+        text-align: left;
+        padding-left: 21%;
+    }
+    .planogram-img-dimention{
+        width: 16%;
+    }
+    .card-img-dimention{
+        width: 55%;
+        margin-top: 6.8rem !important;
+    }
+    .pos-img-dimention{
+        width: 70%;
+        margin-top: 5.8rem !important;
+    }
+    .carousel-dimention{
+        min-height: 360px;
+        /* border: 1px solid; */
+    }
     .product-img-label {
         font-size: 1.0rem;
         padding: 5% 0;
@@ -849,6 +892,8 @@
     }
     .list.list-unstyled.futura-light.mobile-number {
         font-size: 1.20rem;
+        text-align: center;
+        padding-left: 0%;
     }
     .offset-sm-bottom{
         margin-bottom: 1.0rem;
@@ -1024,18 +1069,32 @@
     }
 } 
 @media (max-width: 479px) {
+    .unit-horizontal > .unit-left + .unit-right, .unit-horizontal > .unit-left + .unit-body{
+        padding-left: 30px;
+        padding-top: 0px;
+        text-align: left;
+    }
+    .unit > [class*='unit-']:first-child, .unit-vertical > [class*='unit-']:first-child{
+        text-align: left;
+    }
+    .unit-horizontal{
+        flex-direction: row;
+    }
     .carousel-dimention{
         min-height: 360px;
         /* border: 1px solid; */
     }
     .planogram-img-dimention{
+        width: 30%;
         margin-left: auto !important;
     }
     .card-img-dimention{
+        width: 85%;
         margin-left: auto !important;
         margin-top: 25% !important;
     }
     .pos-img-dimention{
+        width: 60%;
         margin-left: auto !important;
         margin-top: 25% !important;
     }
