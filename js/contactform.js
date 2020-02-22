@@ -44,7 +44,7 @@
             $.ajax(
                 {
                     // url : "http://35.182.103.129/email/contactform",-
-                    url : "http://localhost:8082/email/contactform",
+                    url : "https://billing.atlanticprepaid.com/email/contactform",
                     type: "POST",
                     crossDomain: true,
                     data: formData,
